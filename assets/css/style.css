@@ -37,16 +37,32 @@ header nav ul li a {
     padding: 10px 15px;
 }
 
+.hero {
+    background-color: rgb(26, 22, 82);
+    padding: 50px 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.hero h2 {
+    background-color: cornsilk;
+}
+
 .content-container {
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
 }
 
-.content-container div h2 {
+.content-container .section-title{
     margin: 2px 0 50px 20px;
     padding-right: 10px;
-    border-right: 1px solid blue;
+    border-right: 3px solid rgb(7, 7, 107);
+    min-width: 100px;
+    text-align: right;
+    min-width: 200px;
+    font-size: large;
 }
 
 
@@ -67,3 +83,13 @@ header nav ul li a {
 .content {
     margin-left: 10px;
 }
+
+#work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#work .content .run-buddy {
+    background-color: darkgreen;
+}
+
