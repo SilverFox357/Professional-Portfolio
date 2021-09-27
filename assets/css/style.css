@@ -84,12 +84,22 @@ header nav ul li a {
     margin-left: 10px;
 }
 
-#work {
-    display: flex;
-    flex-wrap: wrap;
+#work .content .main-project img{
+    height: 200px;
+    width: 200px;
 }
 
-#work .content .run-buddy {
-    background-color: darkgreen;
+#work .content .project img{
+    height: 200px;
+    width: 200px;
 }
 
+#work .content .main-project{
+    border: 2px solid aqua;
+    background-color: aqua;
+}
+
+#work .content .project{
+    border: 2px  solid aqua;
+    background-color: aqua;
+}
